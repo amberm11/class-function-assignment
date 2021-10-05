@@ -1,0 +1,20 @@
+class employee():
+    def __init__(self,name,age,email,salary):
+        self.name=name
+        self.age=age
+        self.email=email
+        self.salary=salary
+        self.company="Royalfiber"
+        
+        
+emp1 = employee("Asad",28,"asad.34@gmail.com",50000)
+emp2 = employee("Shayan",30,"shayan.67@gmail.com",80000)
+emp3 = employee("Haris",29,"haris.41@gmail.com",90000)
+
+
+print(emp1.name,emp1.age,emp1.email,emp1.salary,emp1.company)
+print(emp2.name,emp2.age,emp2.email,emp2.salary,emp2.company)
+print(emp3.name,emp3.age,emp3.email,emp3.salary,emp3.company)
+
+
+
